@@ -1,0 +1,43 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+\usepackage{geometry} %zmiana marginesow
+\newgeometry{tmargin=3cm, bmargin=3cm, rmargin=3cm, lmargin=3cm} %ustawienie marginesow
+
+\linespread {1.3}%interlinia
+
+\title{POLITECHNIKA WROCŁAWSKA
+
+WYDZIAŁ ELEKTRONIKI, MIKROSYSTEMÓW I FOTONIKI}
+\begin{document}
+
+\maketitle 
+
+\vspace{0.7}
+\begin{center}
+    \Huge \textbf{PROJEKT - BAZY DANYCH}\\
+    \huge{Baza danych kina}
+\end{center}
+
+\indent
+\\
+\\\\\\
+\Large{Termin zajęć: Piątek, 9:15–11:00 \indent\indent\indent\indent\indent\indent\indent Prowadzący zajęcia:}
+\\
+\Large{Autorzy:\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent dr inż. Roman Ptak\\Pavel Chylek - nr albumu: xxxxxx\\Maciej Andrusiak - nr albumu: xxxxxx\\Wojciech Kierbić - nr albumu: 253995}
+\\
+\\
+\\
+\begin{center}
+Wrocław 2022r.    
+\end{center}
+\newpage
+\tableofcontents
+\newpage
+\newpage
+\section{Wstęp}
+\subsection{Cel projektu}
+\indent \indent Celem realizowanego projektu będzie model pojedynczego kina sieci Multikino. Kino zatrudnia ludzi na stanowiskach kierowniczych oraz obsługujących klientów. Ponadto, oprócz zadań przydzielanych pracownikom, powinno w bazach danych przechowywać sale przydzielane pod seansy, jak i same pozycje filmowe. 
+\subsection{Zakres projektu}
+\indent \indent Kino to składa się z 10 sal kinowych: 3 małych sal (do 100 osób), 4 średnich (do 150 osób), 3 dużych (do 200 osób). Do każdej z sal można wejść 2 wejściami oraz jest jedno wyjście ewakuacyjne. Małą i średnią salę może obsłużyć jeden pracownik (wpuszczenie gości, sprawdzanie czy nikt nie nagrywa filmu, sprzątnięcie po seansie), natomiast dla większej sali potrzebni są już 2 pracownicy. Kino posiada również 2 toalety: męską i damską, które muszą być sprzątane przynajmniej raz dziennie. Do pracowników należy jeszcze obsługa klientów przy kasie (sprzedaż biletów, informacje o seansach), a także obsługa baru i sprzedaż produktów: popcorn, napoje, nachosy. W kinie sieci "Multikino" puszczane są filmy różnogatunkowe m.in. horrory, komedie, biograficzne, dokumentalne. Mają one swoje kategorie wiekowe, czas trwania, reżysera, ilość puszczanych seansów oraz najbardziej znanych aktorów tam występujących. Bilety na filmy są normalne po 20 zł lub ulgowe za 15 zł.
+\end{document}
